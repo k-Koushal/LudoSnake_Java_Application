@@ -115,7 +115,7 @@ public class LudoSnake extends Application {
 
 
          //img = new Image("C:\\Users\\angaddubey\\IdeaProjects\\LudoSnake\\src\\snakeLadderBoardNO.jpg");
-        Image img = new Image("C:\\Users\\Koushal_K\\Desktop\\SnakeLudo-main\\src\\snakeLadderBoard.jpg");
+        Image img = new Image("K:\\SnakeLudo-main\\src\\s&lBoard.png");
         ImageView boardImage = new ImageView();
         boardImage.setImage(img);
         boardImage.setFitHeight(tileSize*height);

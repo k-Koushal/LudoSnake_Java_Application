@@ -65,21 +65,22 @@ public class GameBoard {
         for (int i = 0; i < 101; i++) {
             snakeLadderPosition.add(i);
         }
-        snakeLadderPosition.set(4,25);
-        snakeLadderPosition.set(13,46);
-        snakeLadderPosition.set(27,5);
-        snakeLadderPosition.set(33,49);
-        snakeLadderPosition.set(40,3);
-        snakeLadderPosition.set(42,63);
-        snakeLadderPosition.set(43,18);
-        snakeLadderPosition.set(50,69);
-        snakeLadderPosition.set(54,31);
-        snakeLadderPosition.set(62,81);
-        snakeLadderPosition.set(66,45);
-        snakeLadderPosition.set(74,92);
-        snakeLadderPosition.set(76,58);
-        snakeLadderPosition.set(89,53);
-        snakeLadderPosition.set(99,41);
+        snakeLadderPosition.set(2,23);
+        snakeLadderPosition.set(8,34);
+        snakeLadderPosition.set(20,77);
+        snakeLadderPosition.set(29,9);
+        snakeLadderPosition.set(32,68);
+        snakeLadderPosition.set(38,15);
+        snakeLadderPosition.set(41,79);
+        snakeLadderPosition.set(47,5);
+        snakeLadderPosition.set(53,33);
+        snakeLadderPosition.set(62,37);
+        snakeLadderPosition.set(74,88);
+        snakeLadderPosition.set(82,100);
+        snakeLadderPosition.set(88,95);
+        snakeLadderPosition.set(86,54);
+        snakeLadderPosition.set(92,70);
+        snakeLadderPosition.set(97,25);
     }
 
 
