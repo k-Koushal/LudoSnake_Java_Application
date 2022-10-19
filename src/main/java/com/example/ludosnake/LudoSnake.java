@@ -49,8 +49,8 @@ public class LudoSnake extends Application {
 
         }
 
-        playerOne = new Player(tileSize, Color.WHITE);
-        playerTwo = new Player(tileSize-10, Color.BLACK);
+        playerOne = new Player(tileSize, Color.DARKGOLDENROD);
+        playerTwo = new Player(tileSize-10, Color.SILVER);
 
 
         randResult = new Label("Game not started");
@@ -114,7 +114,6 @@ public class LudoSnake extends Application {
         });
 
 
-         //img = new Image("C:\\Users\\angaddubey\\IdeaProjects\\LudoSnake\\src\\snakeLadderBoardNO.jpg");
         Image img = new Image("K:\\SnakeLudo-main\\src\\s&lBoard.png");
         ImageView boardImage = new ImageView();
         boardImage.setImage(img);
@@ -138,6 +137,7 @@ public class LudoSnake extends Application {
             gameButton.setText("Start Again");
             gameStart = false;
         }
+
     }
 
     private void getDiceValue(){
